@@ -1,92 +1,106 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Zaynab'S Portfolio</title>
- </head>
-    <body>
-       <div>
+  </head>
+  <body>
+    <div>
+      <!-- Navigation bar -->
+      <div class="Navbar-Container">
+        <nav class="navbar">
+          <h1 class="Logo">Zaynab</h1>
+          <ul>
+            <li>
+              <a class="list-hover-effect" href="#home"> Home </a>
+            </li>
+            <li>
+              <a class="list-hover-effect" href="#about"> About </a>
+            </li>
+            <li>
+              <a class="list-hover-effect" href="#skills"> Skills </a>
+            </li>
+            <li>
+              <a class="list-hover-effect" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Showcase section -->
+      <div id="home" class="Showcase-container">
+        <div class="Text">
+          <h1>Zaynab Audu</h1>
+          <p>I am a Backend Developer</p>
+          <button class="Showcase-button">Download Cv</button>
+        </div>
+        <img src="Head Shot Screenshot.jpg" alt="Image" />
+      </div>
 
-            <!-- Navigation bar -->
-            <div class="Navbar-Container">
-                    <nav class="navbar">
-                        <h1 class="Logo"> Zaynab</h1>
-                            <ul>
-                                <li>
-                                    <a class="list-hover-effect" href="#home"> Home  </a>
-                                </li>
-                                <li>
-                                    <a class="list-hover-effect" href="#about"> About </a>
-                                </li>
-                                <li>
-                                    <a class="list-hover-effect" href="#skills"> Skills </a>
-                                </li>
-                                <li>
-                                    <a class="list-hover-effect" href="#contact"> Contact </a>
-                                </li>
-                            </ul>
-                    </nav>
-            </div>
-            
-            <!-- Showcase section -->
-            <div id="home" class="Showcase-container">
-                    <div class="Text">
-                        <h1>Zaynab Audu</h1>
-                        <p>I am a Backend Developer</p>        
-                        <button class="Showcase-button">
-                            Download Cv
-                        </button>
+      <!-- About Section -->
+      <section id="about" class="section-container">
+        <h2 class="section-header">About</h2>
+        <p class="Brief">
+          My name is Zainab Audu. I'm a graduate of Unilorin, where I studied
+          Quantity Surveying. I'm passionate about the tech industry,
+          particularly how tech innovations, softwares and products impact our
+          daily lives positively. I enjoy collaborative ventures, working with
+          different people but towards one purpose. I had the chance to practice
+          this in my previous role with a project management and quantity
+          surveying firm, where I engaged with different project stakeholders,
+          and carried out successful projects. My interests include meeting
+          people, self development, and outdoor fun activities.
+        </p>
 
-                    </div>
-                    <img src="My Picture.jpg" alt="Image" >
-                </div>
-                
-                <!-- About Section -->
-                <section id="about" class="section-container">
-                    <h2 class="section-header"> About </h2>
-                    <p>My name is Zainab Audu. I'm a graduate of Unilorin, where I studied Quantity Surveying. 
+        <div class="Gallery">
+          <h1>Gallery</h1>
+          <ul class="nav_links">
+            <li><img class="Gallery" src="My Photo.jpg" alt="img" /></li>
+            <li><img class="Gallery" src="My Picture.jpg" alt="img" /></li>
+            <li>
+              <img class="Gallery" src="Head Shot Screenshot.jpg" alt="img" />
+            </li>
+          </ul>
+        </div>
+      </section>
 
-                        I'm passionate about the tech industry, particularly how tech innovations, softwares and products impact our daily lives positively. 
-                        
-                        I enjoy collaborative ventures, working with different people but towards one purpose. I had the chance to practice this in my previous role with a project management and quantity surveying firm, where I engaged with different project stakeholders, and carried out successful projects. 
-                        
-                        My interests include meeting people, self development, and outdoor fun activities. 
-                </section>
-
-                <!-- Contact Section -->
-                <section id="contact" class="section-container">
-                    <h2 class="section-header"> Contact </h2>
-                    <p> Get in touch with me!</p>
-                    <div class="icon">
-                        <a href="mailto:zaynabaudu2@gmail.com">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                        <a href="https://github.com/Zainab-Audu" target="_blank">
-                            <i class="fa fa-github-square"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/zainab-audu-3a40a826b/" target="_blank">
-                            <i class="fa fa-linkedin-square"></i>
-                        </a>
-                    </div>
-                </section>
-
-                <!-- Skills Section -->
-                <section id="skills" class="section-container">
-                    <h2 class="section-header"> Skills </h2>
-                    <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                        <li>Git Version Control System</li>
-                        <li>Problem Solving</li>
-                        <li>Effective Communication</li>
-                </ul>   
-                </section>
-
-       </div>
-</body>
+      <!-- Skills Section -->
+      <section id="skills" class="section-container">
+        <h2 class="section-header">Skills</h2>
+        <ul class="Skills-li">
+          <li class="Skill">Html</li>
+          <li class="Skill">Css</li>
+          <li class="Skill">JavaScript</li>
+          <li class="Skill">Git and Github</li>
+          <li class="Skill">Problem Solving</li>
+          <li class="Skill">Effective Communication</li>
+        </ul>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="section-container">
+        <h2 class="section-header">Contact</h2>
+        <p class="Tag">Get in touch with me!</p>
+        <div class="icon">
+          <a href="mailto:zaynabaudu2@gmail.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="https://github.com/Zainab-Audu" target="_blank">
+            <i class="fa fa-github-square"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/zainab-audu-3a40a826b/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
